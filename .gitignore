@@ -1,0 +1,24 @@
+# ---- Secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ---- Test / tooling caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- macOS / editors ----
+.DS_Store
+.vscode/
+.idea/
